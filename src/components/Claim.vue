@@ -19,13 +19,23 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        color: white;
     }
 
     .claim{
         font-size: 50px;
+        margin: 0;
+    @media (min-width: 768px){
+        font-size: 80px;
+    }
     }
     .subclaim{
         margin: 20px 0 0 0;
         font-size: 13px;
+        @media (min-width: 768px){
+            font-size: 17px;
+            letter-spacing: 1px;
+            line-height: 1px;
+        }
     }
 </style>
